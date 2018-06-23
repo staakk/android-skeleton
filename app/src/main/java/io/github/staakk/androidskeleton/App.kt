@@ -48,7 +48,7 @@ class App : DaggerApplication() {
             StrictMode.setThreadPolicy(StrictMode.ThreadPolicy.Builder()
                     .detectAll()
                     .penaltyLog()
-                    .penaltyDeath()
+                    .penaltyFlashScreen()
                     .build())
         }
     }
